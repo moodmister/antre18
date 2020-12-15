@@ -14,4 +14,15 @@ use App\Http\Controllers\GeneralController;
 |
 */
 
-Route::get('/', [GeneralController::class, 'welcome']);
+Route::get('/', [GeneralController::class, 'welcome'])->name('welcome');
+Route::get('/services', [GeneralController::class, 'show_service'])->name('service');
+Route::get('/price-list', [GeneralController::class, 'show_pricelist'])->name('pricelist');
+Route::get('/catalogue', [GeneralController::class, 'show_catalogue'])->name('catalogue');
+
+Route::get('/promo-packs', [GeneralController::class, 'show_promo'])->name('promo');
+Route::get('/gallery', [GeneralController::class, 'show_gallery'])->name('gallery');
+Route::get('/about-me', [GeneralController::class, 'show_aboutme'])->name('aboutme');
+Route::get('/contact', [GeneralController::class, 'show_contact'])->name('contact');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

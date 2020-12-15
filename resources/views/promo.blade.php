@@ -2,6 +2,6 @@
 
 @section('content')
     <div class="wrapper">
-        <h1>Начална страница</h1>
+        <h1>Промо пакети</h1>
     </div>
 @endsection
