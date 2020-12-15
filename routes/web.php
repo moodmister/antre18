@@ -23,6 +23,10 @@ Route::get('/promo-packs', [GeneralController::class, 'show_promo'])->name('prom
 Route::get('/gallery', [GeneralController::class, 'show_gallery'])->name('gallery');
 Route::get('/about-me', [GeneralController::class, 'show_aboutme'])->name('aboutme');
 Route::get('/contact', [GeneralController::class, 'show_contact'])->name('contact');
+
+Route::view('/file-upload', 'upload');
+Route::post('/file-upload', [GeneralController::class, 'store']);
+Route::get('/view-uploads', [GeneralController::class, 'viewUploads']);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
