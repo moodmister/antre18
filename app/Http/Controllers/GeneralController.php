@@ -25,13 +25,18 @@ class GeneralController extends Controller
         return view('promo');
     }
     public function show_gallery() {
-        return view('gallery');
+        $images = File::all();
+        return view('gallery', ['images' => $images]);
     }
     public function show_aboutme() {
         return view('aboutme');
     }
     public function show_contact() {
         return view('contact');
+    }
+
+    public function show_upload() {
+        return view('upload');
     }
     public function store (Request $request) {
 
