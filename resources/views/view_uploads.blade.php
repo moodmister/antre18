@@ -1,6 +1,7 @@
 @extends('components.master')
 @include('components.nav')
 
+<p class="msg">{{ session('msg') }}</p>
 <div class="table-responsive">
     <table class="table table-hover">
         <thead>

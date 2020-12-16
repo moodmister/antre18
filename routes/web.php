@@ -24,9 +24,10 @@ Route::get('/gallery', [GeneralController::class, 'show_gallery'])->name('galler
 Route::get('/about-me', [GeneralController::class, 'show_aboutme'])->name('aboutme');
 Route::get('/contact', [GeneralController::class, 'show_contact'])->name('contact');
 
-Route::get('/file-upload', [GeneralController::class, 'upload'])->middleware('auth');
+Route::get('/file-upload', [GeneralController::class, 'show_upload'])->middleware('auth');
 Route::post('/file-upload', [GeneralController::class, 'store']);
 Route::get('/view-uploads', [GeneralController::class, 'viewUploads'])->name('viewuploads')->middleware('auth');
+Route::delete('/view-uploads/{id}', [GeneralController::class, 'destroy']);
 Auth::routes([
     'register' => false
 ]);

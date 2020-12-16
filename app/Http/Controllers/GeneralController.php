@@ -64,4 +64,11 @@ class GeneralController extends Controller
         $images = File::all();
         return view('view_uploads')->with('images', $images);
     }
+
+    public function destroy($id) {
+        $image = File::findorFail($id);
+        $image->delete();
+
+        return redirect('/view-uploads')->with('msg', 'Deleted successfully');
+    }
 }
