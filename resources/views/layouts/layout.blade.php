@@ -9,22 +9,22 @@
         {{-- Styles --}}
         <style>
             body {
-                color: #dfae10;
-                background-color: #121214;
+                color: #000000;
+                background-color: #eee3b5
             }
             a {
                 border: solid 1px;
                 text-decoration: none;
-                color: #dfae10;
+                color: #000000
             }
             a:hover {
-                background-color: #dfae10;
-                color: #000000
+                background-color: #000;
+                color: #eee3b5
             }
         </style>
     </head>
     <body>
-        <img src="img/logo-blck.png" alt="logo" width="200px" height="120px">
+        <img src="img/logo-wht.png" alt="logo" width="200px" height="120px">
         <nav class="navbar">
             <a href="{{ route('welcome') }}">Начална страница</a>
             <a href="{{ route('catalogue') }}">Каталог</a>
