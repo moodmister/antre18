@@ -13,13 +13,25 @@
                 background-color: #eee3b5
             }
             a {
-                border: solid 1px;
+                display: inline-block;
+                color: #eee3b5;
+                text-align: center;
+                padding: 14px 16px;
                 text-decoration: none;
-                color: #000000
             }
             a:hover {
+                color: #000;
+                background-color: #dac78b
+            }
+            a{
+                text-decoration: none;
+            }
+            nav {
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
                 background-color: #000;
-                color: #eee3b5
+                
             }
         </style>
     </head>
