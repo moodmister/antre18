@@ -20,21 +20,28 @@
         </script>
     </head>
     <body>
+        <div>
+
+            <button class="showMenu" onclick="openNav()">&#9776;{{ __('msg.menuBtn') }}</button>
+            <button class="showMenu" onclick="">Български</button>
+            <button class="showMenu" onclick="">English</button>
+        </div>
         <img src="img/logo-wht.png" alt="logo" width="200px" height="120px">
+        
         <nav id="navbar">
             <button class="hideMenu" onclick="closeNav()">&times;</button>
             <div class="overlay-content">
-                <a href="{{ route('welcome') }}">Начална страница</a>
-                <a href="{{ route('catalogue') }}">Каталог</a>
-                <a href="{{ route('service') }}">Услуги</a>
-                <a href="{{ route('pricelist') }}">Ценоразпис</a>
-                <a href="{{ route('promo') }}">Промо пакети</a>
-                <a href="{{ route('gallery') }}">Галерия</a>
-                <a href="{{ route('aboutme') }}">За мен</a>
-                <a href="{{ route('contact') }}">Контакти</a>
+                <a href="{{ route('welcome') }}">{{__('msg.home')}}</a>
+                <a href="{{ route('catalogue') }}">{{ __('msg.catalogue') }}</a>
+                <a href="{{ route('service') }}">{{ __('msg.service') }}</a>
+                <a href="{{ route('pricelist') }}">{{ __('msg.pricelist') }}</a>
+                <a href="{{ route('promo') }}">{{ __('msg.promo') }}</a>
+                <a href="{{ route('gallery') }}">{{ __('msg.gallery') }}</a>
+                <a href="{{ route('aboutme') }}">{{ __('msg.aboutme') }}</a>
+                <a href="{{ route('contact') }}">{{ __('msg.contact') }}</a>
             </div>
         </nav>
-        <button class="showMenu" onclick="openNav()">&#9776;Меню</button>
+        
         @yield('content')
     </body>
 </html>

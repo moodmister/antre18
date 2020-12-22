@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Session;
 class GeneralController extends Controller
 {
     public function welcome() {
+        app()->setLocale(Session::get('locale'));
         return view('welcome');
     }
 

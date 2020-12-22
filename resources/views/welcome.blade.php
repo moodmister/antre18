@@ -2,6 +2,11 @@
 
 @section('content')
     <div class="wrapper">
-        <h1>Начална страница</h1>
+        <h1>
+            {{ __('msg.antre18') }}
+        </h1>
+        <h2>
+            {{ __('msg.beautyStudio') }}
+        </h2>
     </div>
 @endsection
