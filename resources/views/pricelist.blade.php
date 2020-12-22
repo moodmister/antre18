@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="wrapper">
-        <h1>Ценова листа</h1>
+        <h1>Ценоразпис</h1>
         <ul class="pricelist">
             <li>Класически маникюр - 15,00 лв.</li>
             <li>Маникюр с гел лак - 30,00 лв.</li>

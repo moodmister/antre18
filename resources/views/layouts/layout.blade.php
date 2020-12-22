@@ -7,7 +7,8 @@
         {{-- Title --}}
         <title>Салон за красота - Антре 18</title>
         {{-- Styles --}}
-        <link href="{{ asset('css/mycss.css') }}" rel="stylesheet" type="text/css">
+        <link href="css/mycss.css" rel="stylesheet" type="text/css">
+        {{-- Scripts --}}
         <script>
             function openNav() {
               document.getElementById("navbar").style.width = "100%";
@@ -16,7 +17,7 @@
             function closeNav() {
               document.getElementById("navbar").style.width = "0%";
             }
-            </script>
+        </script>
     </head>
     <body>
         <img src="img/logo-wht.png" alt="logo" width="200px" height="120px">
