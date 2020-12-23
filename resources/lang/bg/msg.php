@@ -10,6 +10,6 @@
         'aboutme' => "За мен",
         'contact' => "Контакти",
         'antre18' => "Антре 18",
-        'beautyStudio' => "Beauty studio"
+        'beautyStudio' => "Салон за красота"
     ]
 ?>

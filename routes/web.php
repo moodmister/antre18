@@ -28,6 +28,13 @@ Route::get('/file-upload', [GeneralController::class, 'show_upload'])->middlewar
 Route::post('/file-upload', [GeneralController::class, 'store']);
 Route::get('/view-uploads', [GeneralController::class, 'viewUploads'])->name('viewuploads')->middleware('auth');
 Route::delete('/view-uploads/{id}', [GeneralController::class, 'destroy']);
+Route::get('setlocale/{locale}', function ($locale) {
+    if (in_array($locale, \Config::get('app.locales'))) {
+      session(['locale' => $locale]);
+    }
+    return redirect()->back();
+  });
+
 Auth::routes([
     'register' => false
 ]);

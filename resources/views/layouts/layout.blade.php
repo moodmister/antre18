@@ -7,8 +7,12 @@
         {{-- Title --}}
         <title>Салон за красота - Антре 18</title>
         {{-- Styles --}}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link href="css/mycss.css" rel="stylesheet" type="text/css">
         {{-- Scripts --}}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script>
             function openNav() {
               document.getElementById("navbar").style.width = "100%";
@@ -23,11 +27,10 @@
         <div>
 
             <button class="showMenu" onclick="openNav()">&#9776;{{ __('msg.menuBtn') }}</button>
-            <button class="showMenu" onclick="">Български</button>
-            <button class="showMenu" onclick="">English</button>
+            <a href="/setlocale/bg">Български</a>
+            <a href="/setlocale/en">English</a>
         </div>
         <img src="img/logo-wht.png" alt="logo" width="200px" height="120px">
-        
         <nav id="navbar">
             <button class="hideMenu" onclick="closeNav()">&times;</button>
             <div class="overlay-content">
