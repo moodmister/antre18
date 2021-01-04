@@ -2,12 +2,12 @@
 
 @section('content')
     <div class="wrapper">
-        <h1>Контакти</h1>
+        <h1>{{ __('msg.contact') }}</h1>
         <ul style="list-style-type: none;">
-            <li>гр. Русе 7002</li>
-            <li>ул. Петко Р. Славейков 18</li>
-            <li>тел. +359 877 515 375</li>
-            <li>antre18.art@gmail.com</li>
+            <li>{{ __('msg.contact_1') }}</li>
+            <li>{{ __('msg.contact_2') }}</li>
+            <li>{{ __('msg.contact_3') }}</li>
+            <li>{{ __('msg.contact_4') }}</li>
         </ul>
         <div class="mapouter">
             <div class="gmap_canvas">

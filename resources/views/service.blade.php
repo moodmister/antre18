@@ -1,15 +1,13 @@
 @extends('layouts.layout')
 
 @section('content')
-<h1 class="xlarge-font"><b>Услуги</b></h1>
+<h1 class="xlarge-font"><b>{{ __('msg.service') }}</b></h1>
 <div class="container">
     <div class="row">
       <div class="column-66">
-        <h2 class="xlarge-font">Маникюр и педикюр</h1>
+        <h2 class="xlarge-font">{{ __('msg.service_1') }}</h1>
         <p class="paragraph">
-            Традиционният или така наложилият се маникюр с гел лак е с времетраене средно 60 минути.<br>
-            Процедура педикюр е с продължителност 70 минути. И при двата метода стъпките са сходни – оформяне на нокти, почистване на кожички, почистване на пета при педикюра, лакиране, лек масж с хидратиращи, подхранващи продукти.
-        </p>
+            {{ __('msg.service_1_1') }}</p>
       </div>
       <div class="column-33">
           <img src="/img/Manicure/manicure-picture-1.jpeg" width="335" height="471">
@@ -22,11 +20,8 @@
             <img src="/img/Lashes/lashes-picture.jpg" width="335" height="471" style="margin:40px 0">
         </div>
         <div class="column-66">
-        <h2 class="xlarge-font">Миглопластика</h1>
-        <p class="paragraph">
-            Удължаването на миглите е процес, който изисква прецизност и точност. Индивидуално е за всеки клиент времетраенето на поставянето на миглите. В зависимост от обема на собствените му мигли – около 120 минути. Изкуствените мигли са от синтетичен материал,
-            който е гъвкав и при натиск не се пречупват. Също така изкуствените мигли не променят цвета си. Грижата след процедурата е всекидневно разресване с четка, измиване и нежно подсушаване.
-        </p>
+        <h2 class="xlarge-font">{{ __('msg.service_2') }}</h1>
+        <p class="paragraph">{{__('msg.service_2_1')}}</p>
       </div>
     </div>
 </div>

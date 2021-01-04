@@ -2,15 +2,15 @@
 
 @section('content')
     <div class="wrapper">
-        <h1>Ценоразпис</h1>
+        <h1>{{ __('msg.pricelist') }}</h1>
         <ul class="pricelist">
-            <li>Класически маникюр - 15,00 лв.</li>
-            <li>Маникюр с гел лак - 30,00 лв.</li>
-            <li>Лакиране с класически лак - 7,00 лв.</li>
-            <li>Лакиране с гел лак - 12,00 лв.</li>
-            <li>Педикюр с лак - 22,00 лв</li>
-            <li>Педикюр с гел лак - 32,00 лв</li>
-            <li>миглопластика - 65,00 лв</li>
+            <li>{{ __('msg.pricelist_1') }}</li>
+            <li>{{ __('msg.pricelist_2') }}</li>
+            <li>{{ __('msg.pricelist_3') }}</li>
+            <li>{{ __('msg.pricelist_4') }}</li>
+            <li>{{ __('msg.pricelist_5') }}</li>
+            <li>{{ __('msg.pricelist_6') }}</li>
+            <li>{{ __('msg.pricelist_7') }}</li>
         </ul>
     </div>
 @endsection

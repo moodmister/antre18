@@ -2,6 +2,6 @@
 
 @section('content')
     <div class="wrapper">
-        <h1>Промо пакети</h1>
+        <h1>{{ __('msg.promo') }}</h1>
     </div>
 @endsection
