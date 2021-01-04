@@ -26,8 +26,10 @@
     <body>
         <div class="transparent overflow-auto">
             <button class="showMenu" onclick="openNav()">&#9776;{{ __('msg.menuBtn') }}</button>
-            <a href="/setlocale/bg">Български</a>
-            <a href="/setlocale/en">English</a>
+            <div class="lang">
+                <a href="/setlocale/bg">Български</a>
+                <a href="/setlocale/en">English</a>
+            </div>
         </div>
         
         <nav id="navbar">

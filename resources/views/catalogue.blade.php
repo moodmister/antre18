@@ -2,6 +2,6 @@
 
 @section('content')
     <div class="wrapper">
-        <h1>{{ __('msg.catalogue') }}</h1>
+        <h1 class="heading transparent">{{ __('msg.catalogue') }}</h1>
     </div>
 @endsection

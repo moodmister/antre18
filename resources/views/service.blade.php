@@ -1,11 +1,13 @@
 @extends('layouts.layout')
 
 @section('content')
-<h1 class="xlarge-font"><b>{{ __('msg.service') }}</b></h1>
-<div class="container">
+<div class="transparent heading">
+  <h1 class="xlarge-font"><b>{{ __('msg.service') }}</b></h1>
+</div>
+<div class="container transparent">
     <div class="row">
       <div class="column-66">
-        <h2 class="xlarge-font">{{ __('msg.service_1') }}</h1>
+        <h2 class="large-font">{{ __('msg.service_1') }}</h1>
         <p class="paragraph">
             {{ __('msg.service_1_1') }}</p>
       </div>
@@ -14,13 +16,13 @@
       </div>
     </div>
 </div>
-<div class="container">
+<div class="container transparent">
     <div class="row">
         <div class="column-33">
             <img src="/img/Lashes/lashes-picture.jpg" width="335" height="471" style="margin:40px 0">
         </div>
         <div class="column-66">
-        <h2 class="xlarge-font">{{ __('msg.service_2') }}</h1>
+        <h2 class="large-font">{{ __('msg.service_2') }}</h1>
         <p class="paragraph">{{__('msg.service_2_1')}}</p>
       </div>
     </div>

@@ -1,8 +1,9 @@
 @extends('layouts.layout')
 
 @section('content')
-    <div class="wrapper">
-        <h1>{{ __('msg.gallery') }}</h1>
+    
+        <h1 class="heading transparent">{{ __('msg.gallery') }}</h1>
+    <div class="container">
         @forelse ($images as $image)
             <img src="{{ $image->url }}" alt="{{ $image->name }}">
         @empty
