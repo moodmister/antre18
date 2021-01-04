@@ -24,13 +24,12 @@
         </script>
     </head>
     <body>
-        <div>
-
+        <div class="transparent overflow-auto">
             <button class="showMenu" onclick="openNav()">&#9776;{{ __('msg.menuBtn') }}</button>
             <a href="/setlocale/bg">Български</a>
             <a href="/setlocale/en">English</a>
         </div>
-        <img src="img/logo-wht.png" alt="logo" width="200px" height="120px">
+        
         <nav id="navbar">
             <button class="hideMenu" onclick="closeNav()">&times;</button>
             <div class="overlay-content">

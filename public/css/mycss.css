@@ -1,7 +1,10 @@
 body {
     font-family: Verdana;
     color: #000000;
-    background-color: #eee3b5
+    background-image: url("/img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 nav a {
@@ -74,6 +77,14 @@ h2 {
 
 .container {
     padding: 64px;
+}
+
+.logo {
+    margin: 64px 32px;
+}
+
+.transparent {
+    background-color: #ffffffa9;
 }
 
 .row:after {
