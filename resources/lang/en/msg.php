@@ -2,9 +2,12 @@
     return [
         'antre18'=> "Antre 18",
         'beautyStudio' => "Beauty studio",
+        
         'menuBtn'=>"Menu",
         'home' =>"Homepage",
+
         'catalogue' => "Catalogue",
+
         'service' => "Services",
         'service_1' => "Manicure and pedicure",
         'service_1_1' => "The traditional, or the trending manicure with gel polish, has a duration of 60 minutes.
@@ -19,7 +22,7 @@
         'pricelist_4' => "Lacquering with gel polish - BGN 12,00",
         'pricelist_5' => "Pedicure with classic lacquer - BGN 22,00",
         'pricelist_6' => "Pedicure with gel polish - BGN 32,00",
-        'pricelist_7' => "Eyelashing - BGN 65,00",
+        'pricelist_7' => "Classic eyelash extension - BGN 65,00",
 
         'promo' => "Promo packs",
 
@@ -27,7 +30,7 @@
         'gallery_1' => "No images",
 
         'aboutme' => "About me",
-        'aboutme_1' => "My name is Denitsa Dimitrova, since 2007 I have been working in the field of beauty in the city of Ruse. After many specialized courses in the field, I turned to the classic manicure and pedicure. I like the stylish and elegant look and I transfer it to my work. My new passion is eyelashing - hair-by-hair technique. The look is emphasized, the woman's radiance is visibly fresher.",
+        'aboutme_1' => "My name is Denitsa Dimitrova, since 2007 I have been working in the field of beauty in the city of Ruse. After many specialized courses in the field, I turned to the classic manicure and pedicure. I like the stylish and elegant look and I transfer it to my work. My new passion is classic eyelash extension - hair-by-hair technique. The look is emphasized, the woman's radiance is visibly fresher.",
         'aboutme_2' => "After years of working in several different teams, I founded Antre 18. Calm and cozy atmosphere and various colors of varnishes. I am happy to say that I managed to make one of my dreams come true!",
 
 
