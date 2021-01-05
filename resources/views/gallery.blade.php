@@ -1,11 +1,9 @@
 @extends('layouts.layout')
 
 @section('content')
-    
     <h1 class="heading transparent xlarge-font"><b>{{ __('msg.gallery') }}</b></h1>
     <div class="container">
         <div id="demo" class="carousel slide" data-ride="carousel">
-
             <!-- Indicators -->
             <ul class="carousel-indicators">
             @forelse ($images as $image)
@@ -29,16 +27,16 @@
                     @endif
                 @endforeach
             </div>
-        
-            <!-- Left and right controls -->
-            @empty($images)
+            @if($images->count() > 0)
                 <a class="carousel-control-prev" href="#demo" data-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                 </a>
                 <a class="carousel-control-next" href="#demo" data-slide="next">
                     <span class="carousel-control-next-icon"></span>
                 </a>
-            @endempty
+            @else
+
+            @endif
         </div>
     </div>
 @endsection
