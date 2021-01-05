@@ -9,16 +9,17 @@ body {
 
 nav a {
     display: block;
-    color: #eee3b5;
+    color: #dac78b;
     text-align: center;
     font-size: 30px;
     padding: 14px 16px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 nav a:hover {
     color: #000;
-    background-color: #dac78b
+    background-color: #dac78b;
+    text-decoration: none;
 }
 
 nav {
