@@ -31,7 +31,7 @@
         </script>
     </head>
     <body>
-        <div class="transparent overflow-auto">
+        <div class="topnav overflow-auto fixed-top">
             <button class="showMenu" onclick="openNav()">&#9776;{{ __('msg.menuBtn') }}</button>
             <div class="lang">
                 <a href="/setlocale/bg"><b>Български</b></a>

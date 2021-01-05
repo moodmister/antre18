@@ -1,7 +1,9 @@
 @extends('layouts.layout')
 
 @section('content')
-    <h1 class="heading transparent xlarge-font"><b>{{ __('msg.gallery') }}</b></h1>
+    <div class="wrapper">
+        <h1 class="heading transparent">{{ __('msg.gallery') }}</h1>
+    </div>
     <div class="container">
         <div id="demo" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->

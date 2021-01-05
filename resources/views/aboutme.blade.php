@@ -1,7 +1,9 @@
 @extends('layouts.layout')
 
 @section('content')
+<div class="wrapper">
     <h1 class="heading transparent">{{ __('msg.aboutme') }}</h1>
+</div>
     <div class="container transparent">
         <div class="row">
             <div class="column-66">

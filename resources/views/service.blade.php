@@ -1,8 +1,8 @@
 @extends('layouts.layout')
 
 @section('content')
-<div class="transparent heading">
-  <h1 class="xlarge-font"><b>{{ __('msg.service') }}</b></h1>
+<div class="wrapper">
+  <h1 class="transparent heading"><b>{{ __('msg.service') }}</b></h1>
 </div>
 <div class="container transparent">
     <div class="row">
