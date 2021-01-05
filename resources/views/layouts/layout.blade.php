@@ -34,8 +34,8 @@
         <div class="transparent overflow-auto">
             <button class="showMenu" onclick="openNav()">&#9776;{{ __('msg.menuBtn') }}</button>
             <div class="lang">
-                <a href="/setlocale/bg">Български</a>
-                <a href="/setlocale/en">English</a>
+                <a href="/setlocale/bg"><b>Български</b></a>
+                <a href="/setlocale/en"><b>English</b></a>
             </div>
         </div>
         
