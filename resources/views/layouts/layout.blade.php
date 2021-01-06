@@ -54,5 +54,19 @@
         </nav>
         
         @yield('content')
+
+        <footer>
+            <div class="container transparent">
+                <div>
+                    <a href="{{ route('contact') }}">{{ __('msg.contact') }}</a>
+                    <ul style="list-style-type: none;">
+                        <li>{{ __('msg.contact_1') }}</li>
+                        <li>{{ __('msg.contact_2') }}</li>
+                        <li>{{ __('msg.contact_3') }}</li>
+                        <li>{{ __('msg.contact_4') }}</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
