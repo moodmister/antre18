@@ -11,14 +11,14 @@
         <p class="paragraph">
             {{ __('msg.service_1_1') }}</p>
       </div>
-      <div class="column-33">
-          <img src="/img/Manicure/manicure-picture-1.jpeg" width="335" height="471">
+      <div class="column-33 round">
+          <img src="/img/Manicure/manicure-picture-1.jpg" width="335" height="471">
       </div>
     </div>
 </div>
 <div class="container transparent">
     <div class="row">
-        <div class="column-33">
+        <div class="column-33 round">
             <img src="/img/Lashes/lashes-picture.jpg" width="335" height="471" style="margin:40px 0">
         </div>
         <div class="column-66">

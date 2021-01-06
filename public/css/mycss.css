@@ -147,6 +147,10 @@ img {
     max-width: 100%;
 }
 
+.round img {
+    border-radius: 10%
+}
+
 .lang {
     margin-top: 10px;
 }

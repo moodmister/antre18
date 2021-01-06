@@ -10,7 +10,7 @@
                 <p class="paragraph">{{__('msg.aboutme_1')}}</p>
                 <p class="paragraph">{{__('msg.aboutme_2')}}</p>
             </div>
-            <div class="column-33">
+            <div class="column-33 round">
                 <img src="/img/denitsa.jpg" alt="Denitsa">
             </div>
         </div>
