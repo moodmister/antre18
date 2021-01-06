@@ -23,6 +23,7 @@
         'pricelist_5' => "Pedicure with classic lacquer - BGN 22,00",
         'pricelist_6' => "Pedicure with gel polish - BGN 32,00",
         'pricelist_7' => "Classic eyelash extension - BGN 65,00",
+        'pricelist_8' => "All prices are in Bulgarian levs for one number of the respective service.",
 
         'promo' => "Promo packs",
 

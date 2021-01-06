@@ -14,5 +14,6 @@
             <li>{{ __('msg.pricelist_6') }}</li>
             <li>{{ __('msg.pricelist_7') }}</li>
         </ul>
+        {{ __('msg.pricelist_8') }}
     </div>
 @endsection
