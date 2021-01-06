@@ -17,7 +17,7 @@ use App\Http\Controllers\GeneralController;
 Route::get('/', [GeneralController::class, 'welcome'])->name('welcome');
 Route::get('/services', [GeneralController::class, 'show_service'])->name('service');
 Route::get('/price-list', [GeneralController::class, 'show_pricelist'])->name('pricelist');
-Route::get('/catalogue', [GeneralController::class, 'show_catalogue'])->name('catalogue');
+//Route::get('/catalogue', [GeneralController::class, 'show_catalogue'])->name('catalogue');
 
 Route::get('/promo-packs', [GeneralController::class, 'show_promo'])->name('promo');
 Route::get('/gallery', [GeneralController::class, 'show_gallery'])->name('gallery');
@@ -28,12 +28,8 @@ Route::get('/file-upload', [GeneralController::class, 'show_upload'])->middlewar
 Route::post('/file-upload', [GeneralController::class, 'store']);
 Route::get('/view-uploads', [GeneralController::class, 'viewUploads'])->name('viewuploads')->middleware('auth');
 Route::delete('/view-uploads/{id}', [GeneralController::class, 'destroy']);
-Route::get('setlocale/{locale}', function ($locale) {
-    if (in_array($locale, \Config::get('app.locales'))) {
-      session(['locale' => $locale]);
-    }
-    return redirect()->back();
-  });
+
+Route::get('setlocale/{locale}', [GeneralController::class, 'set_locale']);
 
 Auth::routes([
     'register' => false

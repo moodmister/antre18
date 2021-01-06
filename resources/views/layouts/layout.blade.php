@@ -35,6 +35,7 @@
             <div class="lang">
                 <a href="/setlocale/bg"><b>Български</b></a>
                 <a href="/setlocale/en"><b>English</b></a>
+                <a href="/setlocale/ru"><b>Română</b></a>
             </div>
         </div>
         
@@ -42,7 +43,7 @@
             <button class="hideMenu" onclick="closeNav()">&times;</button>
             <div class="overlay-content">
                 <a href="{{ route('welcome') }}">{{__('msg.home')}}</a>
-                <a href="{{ route('catalogue') }}">{{ __('msg.catalogue') }}</a>
+                {{-- <a href="{{ route('catalogue') }}">{{ __('msg.catalogue') }}</a> --}}
                 <a href="{{ route('service') }}">{{ __('msg.service') }}</a>
                 <a href="{{ route('pricelist') }}">{{ __('msg.pricelist') }}</a>
                 <a href="{{ route('promo') }}">{{ __('msg.promo') }}</a>

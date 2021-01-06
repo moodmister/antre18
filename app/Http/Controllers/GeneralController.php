@@ -75,4 +75,10 @@ class GeneralController extends Controller
 
         return redirect('/view-uploads')->with('msg', 'Deleted successfully');
     }
+    public function set_locale($locale) {
+        if (in_array($locale, \Config::get('app.locales'))) {
+          session(['locale' => $locale]);
+        }
+        return redirect()->back();
+    }
 }
