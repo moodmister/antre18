@@ -33,7 +33,8 @@
         'aboutme' => "About me",
         'aboutme_1' => "My name is Denitsa Dimitrova, since 2007 I have been working in the field of beauty in the city of Ruse. After many specialized courses in the field, I turned to the classic manicure and pedicure. I like the stylish and elegant look and I transfer it to my work. My new passion is classic eyelash extension - hair-by-hair technique. The look is emphasized, the woman's radiance is visibly fresher.",
         'aboutme_2' => "After years of working in several different teams, I founded Antre 18. Calm and cozy atmosphere and various colors of varnishes. I am happy to say that I managed to make one of my dreams come true!",
-
+        'aboutme_3' => "For the accomplishment of this dream I want to thank the man next to me and our two wonderful children, for supporting me in difficult moments, for putting up with my dedication to the profession. Thank you also to all the lecturers, clients and colleagues I have worked with and am working with now.
+        I continue my activity tendentiously towards preservation and expression of the natural beauty!",
 
         'contact' => "Contacts",
         'contact_1' => "Ruse, 7002",
