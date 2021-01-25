@@ -19,12 +19,12 @@ class GeneralController extends Controller
     public function show_pricelist() {
         return view('pricelist');
     }
-    public function show_catalogue() {
+    /* public function show_catalogue() {
         return view('catalogue');
     }
     public function show_promo() {
         return view('promo');
-    }
+    } */
     public function show_gallery() {
         $images = File::all();
         return view('gallery', ['images' => $images]);

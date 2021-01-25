@@ -46,7 +46,7 @@
                 {{-- <a href="{{ route('catalogue') }}">{{ __('msg.catalogue') }}</a> --}}
                 <a href="{{ route('service') }}">{{ __('msg.service') }}</a>
                 <a href="{{ route('pricelist') }}">{{ __('msg.pricelist') }}</a>
-                <a href="{{ route('promo') }}">{{ __('msg.promo') }}</a>
+                {{--<a href="{{ route('promo') }}">{{ __('msg.promo') }}</a>--}}
                 <a href="{{ route('gallery') }}">{{ __('msg.gallery') }}</a>
                 <a href="{{ route('aboutme') }}">{{ __('msg.aboutme') }}</a>
                 <a href="{{ route('contact') }}">{{ __('msg.contact') }}</a>
